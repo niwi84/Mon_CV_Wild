@@ -1,0 +1,98 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(104, 187, 285);
+}
+
+header {
+    padding: 2% 2% 0 2%;
+    text-align: right;
+}
+
+header h1,
+header h2,
+header h3,
+header h4,
+header h5,
+header h6{
+    display: inline;
+}
+
+#container {
+    width: 100%;
+}
+
+#left-box {
+    background-color: rgb(9, 30, 45);
+    color : white;
+    float: left;
+    width: 25%;
+    margin: 2%;
+    padding: 1%;
+}
+
+#left-box p {
+    margin-bottom: 2%;
+}
+
+#left-box img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#left-box h4 {
+    margin-top: 5%;
+}
+
+#left-box li {
+    list-style: square;
+    margin-bottom: 1%;
+    margin-left: 6%;
+}
+
+#left-box li:first-child {
+    margin-top: 2%;
+}
+
+#right-box {
+    /*background-color: red;*/
+    display: inline-block;
+    width: 67%;
+    margin: 2% 2% 2% 0;
+}
+
+#right-box h3 {
+    margin-bottom: 1%;
+    text-decoration: underline;
+}
+
+#right-box>div {
+    background-color: white;
+    padding: 1%;
+}
+
+#right-box div:first-child {
+    margin-bottom: 2%;
+}
+
+.expe,
+.study {
+    margin-bottom: 1%;
+}
+
+.expe:last-child,
+.study:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    display: inline-block;
+    padding: 0 0 2% 0;
+    text-align: center;
+    width: 100%;
+}
